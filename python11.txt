@@ -1,0 +1,8 @@
+side_a=int(input("enter first side of a triangle"))
+side_b=int(input("enter second side of a triangle"))
+side_c=int(input("enter third side of a triangle"))
+if(side_a==side_b==side_c):
+    print("this is an equilateral triangle")
+else:
+    print("this is not equilateral triangle")
+    
